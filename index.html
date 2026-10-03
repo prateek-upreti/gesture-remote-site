@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SyncPlay Remote</title>
+<style>
+  :root { --bg:#f6f7fb; --text:#111827; --muted:#4b5563; --card:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#090b14; --text:#e5e7eb; --muted:#9ca3af; --card:#121522; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  .hero { border-radius:28px; padding:32px 24px; color:#fff; background:linear-gradient(135deg,#6366f1,#8b5cf6,#d946ef); }
+  .hero h1 { margin:0 0 8px; font-size:2rem; } .hero p { margin:0; opacity:.92; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; margin-top:20px; }
+  .tile { background:var(--card); border-radius:20px; padding:16px; } .tile b { display:block; }
+  .muted { color:var(--muted); } a { color:#6366f1; }
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<h1>SyncPlay Remote</h1>
+<p>Control music and reels on your phone with a flick of your wrist, using your Wear OS watch.</p>
+</section>
+<div class="grid">
+<div class="tile"><b>Double twist</b><span class="muted">Play / pause</span></div>
+<div class="tile"><b>Flick up / down</b><span class="muted">Next / previous song or reel</span></div>
+<div class="tile"><b>Tilt and hold</b><span class="muted">Volume up / down</span></div>
+<div class="tile"><b>Shake 3 times</b><span class="muted">Phone flashlight</span></div>
+<div class="tile"><b>Train my gestures</b><span class="muted">Adapts to how you move</span></div>
+<div class="tile"><b>Private by design</b><span class="muted">No account, no cloud, no tracking</span></div>
+</div>
+<p class="muted">Needs an Android phone (Android 13 or newer) and a paired Wear OS watch (Wear OS 4 or newer).</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>

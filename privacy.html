@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SyncPlay Remote — Privacy Policy</title>
+<style>
+  :root { --bg:#f6f7fb; --card:#fff; --text:#111827; --muted:#4b5563; --brand:#6366f1; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#090b14; --card:#121522; --text:#e5e7eb; --muted:#9ca3af; --brand:#a5b4fc; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.8rem; margin:0 0 4px; } h2 { margin-top:2rem; font-size:1.2rem; }
+  .muted { color:var(--muted); } a { color:var(--brand); }
+  .card { background:var(--card); border-radius:16px; padding:4px 16px; overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; font-size:.95rem; }
+  th, td { text-align:left; vertical-align:top; padding:10px 8px; border-bottom:1px solid rgba(127,127,127,.2); }
+</style>
+</head>
+<body>
+<main>
+<h1>SyncPlay Remote — Privacy Policy</h1>
+<p class="muted">Last updated: 1 October 2026</p>
+<p>SyncPlay Remote is made up of a phone app and a Wear OS watch app. The watch app recognises deliberate wrist gestures (or, without a watch, the phone can recognise hand gestures with its front camera), and the phone app carries out the matching action: play/pause, next/previous, volume, flashlight, or swiping a short video. This page explains what the apps use and what they do not.</p>
+<h2>Summary</h2>
+<ul>
+<li>No account and no sign-in.</li>
+<li>The developer runs no servers, and the apps include no analytics, advertising or tracking.</li>
+<li>Nothing about you is sold or shared with the developer or anyone else.</li>
+</ul>
+<h2>What the apps use, and where it stays</h2>
+<div class="card"><table>
+<tr><th>What</th><th>Why</th><th>Where it stays</th></tr>
+<tr><td>Watch motion sensors (accelerometer, gyroscope, linear acceleration)</td><td>To recognise your gestures, only while you have turned Remote Mode on or are using the practice or training screens</td><td>Processed in memory on the watch and discarded right away</td></tr>
+<tr><td>Your gesture training recordings (a few seconds of motion per recording, only when you tap Record)</td><td>To adapt gesture recognition to your style</td><td>Saved only on your watch, at most 20 per gesture. Delete them anytime with “Delete my recordings”, or by uninstalling the app. Never sent anywhere</td></tr>
+<tr><td>Commands from watch to phone (a random ID, the command such as “play/pause”, and a time)</td><td>To carry out your gesture on the phone</td><td>Sent through Google Play services’ Wearable Data Layer: directly over Bluetooth/Wi-Fi when the devices are near each other, otherwise relayed through Google’s servers. Kept in phone memory only briefly, to reject duplicates</td></tr>
+<tr><td>Whether audio is playing on the phone</td><td>To tell you whether play/pause worked</td><td>Read on the phone; not stored</td></tr>
+<tr><td>Name of the app on screen (only if you turn on Reels control)</td><td>To know when YouTube, Instagram, Facebook or TikTok is open, so your gesture swipes to the next or previous video, or pauses it with a tap</td><td>Kept in phone memory only; never saved or shared. The service cannot read screen content</td></tr>
+<tr><td>Front camera (only if you start Camera gestures)</td><td>To recognise your hand gestures without a watch, only while Camera gestures are on</td><td>Each frame is analysed on the phone and dropped at once. No image or video is recorded, saved or sent, and no internet is used. The camera is released when the screen turns off, and Camera gestures stop after 30 minutes or when you tap Stop</td></tr>
+<tr><td>Your camera gesture training (only when you record in Train camera gestures)</td><td>To adapt camera gestures to how you move</td><td>Only hand positions and hand shapes (numbers, no photos or video), saved on your phone, at most 10 per gesture. Delete them anytime with “Delete camera recordings”, or by uninstalling the app. Never sent anywhere</td></tr>
+<tr><td>Flashlight</td><td>To switch the phone’s flashlight when you shake your watch or tap the button</td><td>Only the flashlight is switched; no images are taken</td></tr>
+<tr><td>Purchase status (after the 7-day trial)</td><td>To know whether you unlocked the app</td><td>Payment is handled entirely by Google Play. The app only receives whether the unlock was bought</td></tr>
+</table></div>
+<h2>Accessibility service (Reels control)</h2>
+<p>Reels control is optional and off until you turn it on in Android Settings, after an in-app explanation. It uses Android’s Accessibility service only to see which app is in front, and makes a single up or down swipe, or a single tap in the middle of the screen, only when you make a gesture with your watch or hand. It does not read, collect or share anything on your screen, and it does not act on its own.</p>
+<h2>Camera gestures</h2>
+<p>Camera gestures are optional and off until you tap Start, after an in-app explanation and Android’s camera permission prompt. The hand recognition (Google’s open-source MediaPipe) runs entirely on your phone. Frames are never stored, shown to anyone, or sent anywhere. A notification with Stop is shown while it is on, and Android shows its camera-in-use indicator.</p>
+<h2>What the apps never access</h2>
+<p>Location, microphone, contacts, messages, notifications, files outside the app, or your screen content. Camera images are never saved or sent.</p>
+<h2>Children</h2>
+<p>SyncPlay Remote is not directed at children under 13.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted on this page with a new date.</p>
+<h2>Contact</h2>
+<p>Questions: <strong>[support email — owner to fill in]</strong></p>
+</main>
+</body>
+</html>
